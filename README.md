@@ -1,21 +1,36 @@
 # Project 3: Around The U.S.
 
-### Overview  
+### Overview
 
-* Intro  
-* Figma  
-* Images  
-  
+- Intro
+- Figma
+- Images
+
 **Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+
+Around the U.S project is an interactive site that allows users to build a profile, add and share experiences through images and like photos.
+This project is made so all the elements are displayed correctly on popular screen sizes. Breakpoints for responsiveness were coded at 620px and 900px screen widths. HTML and CSS were created using this design brief via Figma.
+
+**Links**
+
+- [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)
+
+**Images**
+
+![Main Page](demo-images/MAIN-PAGE.png)
+
+![Mobile Version](demo-images/MOBILE.png)
+
+![Bald-mountains](demo-images/bald-mountains.jpg)
+
+![Jacques-Cousteau](demo-images/jacques-cousteau.jpg)
+
+![Lago](demo-images/lago.jpg)
+
+![Lake-louise](demo-images/lake-louise.jpg)
+
+![latemar](demo-images/latemar.jpg)
+
+![vanoise](demo-images/vanoise.jpg)
+
+![yosemite](demo-images/yosemite.jpg)
