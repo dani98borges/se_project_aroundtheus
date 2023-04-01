@@ -26,7 +26,7 @@
 }
 
 .card__title {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -38,7 +38,7 @@
 }
 
 .card__like-button {
-  background-image: url(../images/like\ button.svg);
+  background-image: url(../images/like-button.svg);
   background-position: center;
   height: 18px;
   width: 21px;
