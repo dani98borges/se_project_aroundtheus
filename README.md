@@ -15,6 +15,8 @@ This project is made so all the elements are displayed correctly on popular scre
 
 - [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)
 
+- [Link to live site](https://dani98borges.github.io/se_project_aroundtheus/)
+
 **Images**
 
 ![Main Page](demo-images/MAIN-PAGE.png)
