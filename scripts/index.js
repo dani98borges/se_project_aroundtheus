@@ -25,4 +25,28 @@ const initialCards = [
   },
 ];
 
-console.log(initialCards);
+/*---------------------------------------------------------------------------------------------------------*/
+/*                                                Element                                                  */
+/*---------------------------------------------------------------------------------------------------------*/
+
+const profileEditButton = document.querySelector("#profile-edit-button");
+const profileEditModal = document.querySelector("#profile-edit-modal");
+const profileModalCloseButton = document.querySelector(".modal__close");
+
+/*---------------------------------------------------------------------------------------------------------*/
+/*                                                Event Listeners                                          */
+/*---------------------------------------------------------------------------------------------------------*/
+
+profileEditButton.addEventListener("click", () => {
+  profileEditModal.classList.add("modal_opened");
+});
+
+profileModalCloseButton.addEventListener("click", handleModalClose);
+
+/*---------------------------------------------------------------------------------------------------------*/
+/*                                                Functions                                                */
+/*---------------------------------------------------------------------------------------------------------*/
+
+function handleModalClose() {
+  profileEditModal.classList.remove("modal_opened");
+}
