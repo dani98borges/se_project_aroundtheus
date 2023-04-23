@@ -76,10 +76,6 @@ function getCardElement(cardData) {
   const cardTitle = cardElement.querySelector(".card__title");
   const likeButton = cardElement.querySelector(".card__like-button");
 
-  likeButton.addEventListener("click", () => {
-    likeButton.classList.toggle("card__like-button_active");
-  });
-
   cardImage.addEventListener("click", () => {
     const previewImageModal = document.querySelector("#image-modal");
     const previewTitle = previewImageModal.querySelector("#card-preview-title");
