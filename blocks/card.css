@@ -39,7 +39,7 @@
 }
 
 .card__like-button {
-  background-image: url(../images/like-button.svg);
+  background-image: url(../images/heart.svg);
   background-position: center;
   height: 18px;
   width: 21px;
@@ -49,11 +49,30 @@
   flex-shrink: 0;
 }
 
+.card__like-button_active {
+  background-image: url("../images/Union.svg");
+}
+
 .card__like-button:hover {
   opacity: 0.5;
   cursor: pointer;
 }
 
-.card__like-button_active {
-  background-image: url("../images/Union.svg");
+.card__delete-button {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/Trash.svg");
+  background-color: transparent;
+  position: absolute;
+  top: 19px;
+  right: 16px;
+  width: 18px;
+  height: 19px;
+  border: none;
+  cursor: pointer;
+}
+
+.card__delete-button:hover {
+  opacity: 50%;
+  transition: 0.1s;
 }
