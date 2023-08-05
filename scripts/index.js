@@ -134,4 +134,10 @@ previewImageModalClose.addEventListener("click", () => {
 });
 
 const likeButtons = document.querySelectorAll(".card__like-button");
-likeButtons.forEach((likeButton) => {});
+likeButton.addEventListener("click", () => {
+  likeButton.classList.toggle("card__like-button_active");
+});
+const deleteButton = cardElement.querySelector(".card__delete-button");
+deleteButton.addEventListener("click", () => {
+  cardElement.remove("cardElement");
+});
