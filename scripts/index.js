@@ -105,8 +105,8 @@ initialCards.forEach((cardData) => {
 });
 
 profileEditBtn.addEventListener("click", () => {
-  profileTitleInput.value = profileTitle.textContent;
-  profileDescriptionInput.value = profileDescription.textContent;
+  profileTitleInput.value = profileTitle.textContent.trim();
+  profileDescriptionInput.value = profileDescription.textContent.trim();
   openPopup(profileEditModal);
 });
 addNewCardBtn.addEventListener("click", () => {
