@@ -96,7 +96,8 @@ function handleCardAddSubmit(e) {
       link: cardAddLink.value,
     })
   );
-  closePopup(cardAddModal).reset();
+  closePopup(cardAddModal);
+  e.target.reset();
 }
 
 initialCards.forEach((cardData) => {
