@@ -89,7 +89,7 @@ function getCardElement(cardData) {
 
   const deleteButton = cardElement.querySelector(".card__delete-button");
   deleteButton.addEventListener("click", () => {
-    cardElement.remove("cardElement");
+    cardElement.remove();
   });
 
   cardImageEl.addEventListener("click", () => {
@@ -128,7 +128,6 @@ function handleEscape({ key }) {
   if (key === "Escape") {
     const openModal = document.querySelector(".modal_opened");
     closeModal(openModal);
-    console.log("clicked");
   }
 }
 [profileEditModal, addCardModal, previewImageModal].forEach((modal) => {
