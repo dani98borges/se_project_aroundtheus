@@ -12,6 +12,5 @@ export function handleEscape({ key }) {
   if (key === "Escape") {
     const openModal = document.querySelector(".modal_opened");
     closeModal(openModal);
-    console.log("clicked");
   }
 }

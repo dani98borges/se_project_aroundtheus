@@ -1,4 +1,4 @@
-import { openModal, closeModal, handleEscape } from "../utils/utils.js";
+import { openModal, closeModal, handleEscape } from "../utils/utils";
 
 const cardImageModal = document.querySelector("#preview-image");
 const cardPreviewImage = document.querySelector(".modal__image");
@@ -64,10 +64,6 @@ class Card {
     this._cardImage.alt = this._name;
 
     this._cardTitle.textContent = this._name;
-
-    this._cardElement.querySelector(".card__description").innerText =
-      this._name;
-    return this._cardElement;
   }
 }
 
