@@ -1,4 +1,4 @@
-import { openModal, closeModal, handleEscape } from "../utils/utils";
+import { openModal, closeModal, handleEscape } from "../utils/utils.js";
 
 const cardImageModal = document.querySelector("#preview-image");
 const cardPreviewImage = document.querySelector(".modal__image");
