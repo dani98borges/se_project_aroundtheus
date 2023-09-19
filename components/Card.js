@@ -41,11 +41,15 @@ class Card {
     openModal(cardImageModal);
   }
 
-  getView() {
-    this._cardElement = document
+  _getElement() {
+    return document
       .querySelector(this._cardSelector)
       .content.querySelector(".card")
       .cloneNode(true);
+  }
+
+  getView() {
+    this._cardElement = this._getElement();
 
     this._likeButton = this._cardElement.querySelector(".card__like-button");
 
@@ -64,6 +68,8 @@ class Card {
     this._cardImage.alt = this._name;
 
     this._cardTitle.textContent = this._name;
+
+    return this._cardElement;
   }
 }
 
